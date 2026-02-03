@@ -36,3 +36,23 @@ The Waveshare Zero is a popular RP2040 based board to use as the central piece o
 ## License
 
 This design is licensed under the [OPEN COMMUNITY LICENSE](https://github.com/OpenCommunityLicence/OpenCommunityLicence). In short:  you can use, modify and build it for non-commercial use. You can use, modify and build it for internal commercial use. You may NOT modify, build and sell it without my permission. I will grant this permission without any costs, I just want to know who is building and selling it and make an official list here.
+
+## Where to buy
+
+List of recommended/known sellers:
+* --
+
+List of other sellers:
+* --
+
+## How to build
+
+1. Choose your favorite fab. I recommend JLCPCB (very automated and streamlined process) or PCBWay (more involved but better guided process). Pricing for both is about the same for an order of 50 boards.
+2. Upload the gerber files and go through ordering process. Make sure to check "castellated holes" and "confirm production files" in the JLC order form. 
+3. Check if all components are in stock and placed correctly.
+
+## How to use:
+1. When the assembled boards arrive, use a wire cutter to remove the USB-A piece.
+2. Solder all the pieces to your board and/or screw them in place and connect them with JST SH 2.0 connection wires if needed.
+3. Connect to a PC via USB-C. Hold bootsel switch and push the reset switch. The board should get mounted as a drive. Copy the firmware to that drive to flash it.
+4. Please refer to the [GP2040-CE project](https://gp2040-ce.info/) for further software documentation.
