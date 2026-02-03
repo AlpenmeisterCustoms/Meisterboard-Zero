@@ -31,7 +31,7 @@ The Waveshare Zero is a popular RP2040 based board to use as the central piece o
 * Cheaper to produce and ship than having full size boards with embedded components, especially considering the current unpredictable global tariff regime.
 
 <img width="400" height="400" alt="meisterboard-zero" src="https://github.com/user-attachments/assets/cfa381f9-2c85-41a4-aca5-a8509badc839" />
-<img width="400" height="400" alt="meisterboard-zero" src="https://github.com/user-attachments/assets/1b3efd9c-8270-4537-a673-c0b01cf654ad" />
+<img width="400" height="400" alt="meisterboard-zero" src="https://github.com/user-attachments/assets/d4093e6c-8bef-4b90-bfe1-352fa782a909" />
 
 ## License
 
