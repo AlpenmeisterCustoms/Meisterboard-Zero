@@ -2,7 +2,7 @@
 a controller focussed RP2040 micro breakout board
 
 ## Introduction / goals
-I was in need of a cost effective breakout board to use for rapid prototyping and iterating controller builds. The goal was to reduce PCB assembly service/time and have an easy to solder base/controller board available with all the necessary features present. That way one could quickly build on basic (locally produced) PCBs without the need to embed and assemble the whole RP2040 design. 
+I was in need of a cost effective breakout board to use for rapid prototyping and iterating controller builds. The goal was to reduce PCB assembly service/time and have an easy to solder base/controller board available with all the necessary features present. That way one could quickly build on basic (locally produced) PCBs without the need to embed and assemble the whole RP2040 design.
 
 ## Design considerations
 The Waveshare Zero is a popular RP2040 based board to use as the central piece of GP2040-CE firmware based controller builds. While it is great because of its extremely small size and universal utility, it does not easily expose all available GPIOs and is not tailored for controller building. I therefore used its size as an (unattainable) goal/reference and added features I considered useful:
@@ -17,7 +17,8 @@ The Waveshare Zero is a popular RP2040 based board to use as the central piece o
 * Smallest possible size, while all GPIOs are easily accessible.
 * USB-C port easily and cheaply replaceable in case it ever fails from plugging and unplugging cables.
 * Comes with a USB-A host breakout board.
-* Modular design makes it useful for various controller builds, including flatbox style controllers, very small builds or those that need flexible placement of the USB-C and USB-A ports. 
+* Modular design makes it useful for various controller builds, including flatbox style controllers, very small builds or those that need flexible placement of the USB-C and USB-A ports.
+* Cheaper to produce and ship than having full size boards with embedded components, especially considering the current unpredictable global tariff regime.
 
 ## License
 
