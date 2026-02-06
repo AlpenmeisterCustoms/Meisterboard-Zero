@@ -29,7 +29,8 @@ The Waveshare Zero is a popular RP2040 based board to use as the central piece o
 * Comes with a USB-A host breakout board.
 * Modular design makes it useful for various controller builds, including flatbox style controllers, very small builds or those that need flexible placement of the USB-C and USB-A ports.
 * Cheaper to produce and ship than having full size boards with embedded components, especially considering the current unpredictable global tariff regime.
-* Costs only around 5€ incl. VAT and shipping built in a batch of 50 boards.
+* To make production cheaper, just do not populate some components, like the connectors or ports.
+* Costs only 5-10€ incl. VAT and shipping built in a batch of 50 boards.
 
 <img width="400" height="400" alt="meisterboard-zero" src="https://github.com/user-attachments/assets/cfa381f9-2c85-41a4-aca5-a8509badc839" />
 <img width="400" height="400" alt="meisterboard-zero" src="https://github.com/user-attachments/assets/d4093e6c-8bef-4b90-bfe1-352fa782a909" />
@@ -58,3 +59,7 @@ List of other sellers:
 2. Solder all the pieces to your board and/or screw them in place and connect them with JST SH 2.0 connection wires if needed.
 3. Connect to a PC via USB-C. Hold bootsel switch and push the reset switch. The board should get mounted as a drive. Copy the firmware to that drive to flash it.
 4. Please refer to the [GP2040-CE project](https://gp2040-ce.info/) for further software documentation.
+
+## Disclaimer:
+
+Build and use at at your own risk. These files are provided as is. It is your own duty to make sure the boards work as you intend it. 
