@@ -7,30 +7,28 @@ a gaming controller focussed RP2040 micro breakout board for the GP2040-CE firmw
 
 
 ## Introduction / goals
-I was in need of a cost effective breakout board to use for rapid prototyping and iterating controller builds. The goal was to reduce PCB assembly service/time and have an easy to solder base/controller board available with all the necessary features present. That way one could quickly build on basic (locally produced) PCBs without the need to embed and assemble the whole RP2040 design.
-
-*Picture disclaimer: They are showing a version without castellated holes on the USB-C and USB-A breakoff pieces. Also silkscreen adjustments were made.*
+I was in need of a cost effective breakout board to use for rapid prototyping and to make iterating controller builds faster and more flexible. The goal was to reduce PCB assembly service/time and have a somewhat easy to solder base/controller board available with all the necessary features present. That way one could quickly build on basic (even locally produced) PCBs without the need to embed and assemble the whole RP2040 design.
 
 ## Design considerations
-The Waveshare Zero is a popular RP2040 based board to use as the central piece of GP2040-CE firmware based controller builds. While it is great because of its extremely small size and universal utility, it does not easily expose all available GPIOs and is not tailored for controller building. I therefore used its size as an (unattainable) goal/reference and added features I considered useful:
-* All configurable GPIOs exposed via castellated holes for easy soldering. Optional holes for pin headers.
+The Waveshare Zero is a popular RP2040 based board to use as the central piece of GP2040-CE firmware based controller builds. While it is great because of its extremely small size and universal utility, it does not expose all available GPIOs in an easily accessible way and is not tailored for controller building. I therefore used its size as a benchmark/reference to aim for and added features I considered essential or useful:
+* All configurable GPIOs exposed via holes for pin headers and castellated holes for easier soldering.
 * Dedicated onboard bootsel, reset and webconfig button.
-* Comes with a USB-A host breakout board, to be detached with wire cutters. 
+* Comes with a USB-A host daughter board, to be detached with wire cutters. 
 * Modular design makes it possible to also detach the main USB-C port.
-* Both USB-A and USB-C breakout boards can be either soldered to a PCB or connected via JST SH 2.0 wires. The main board has corresponding connectors in place.
+* Both USB-A and USB-C daughter boards can be either soldered to a PCB or connected via JST SH 2.0 wires. The mother board has corresponding connectors in place.
 
 <img width="400" height="400" alt="meisterboard-zero" src="https://github.com/user-attachments/assets/94d9ef30-2681-4ac7-ae23-ea711d4a513d" />
 <img width="400" height="400" alt="meisterboard-zero" src="https://github.com/user-attachments/assets/c2f2d63e-6320-4312-8659-74c0d27542dc" />
 
 ## Advantages
 
-* Smallest possible size, while all GPIOs are easily accessible.
+* Smallest possible size, while all GPIOs accessible via pins or castellated holes.
 * USB-C port easily and cheaply replaceable in case it ever fails from plugging and unplugging cables.
-* Comes with a USB-A host breakout board.
+* Comes with a detachable USB-A host daughter board.
 * Modular design makes it useful for various controller builds, including flatbox style controllers, very small builds or those that need flexible placement of the USB-C and USB-A ports.
 * Cheaper to produce and ship than having full size boards with embedded components, especially considering the current unpredictable global tariff regime.
-* To make production cheaper, just do not populate some components, like the connectors or ports.
-* Costs only 5-10€ incl. VAT and shipping built in a batch of 50 boards.
+* To make production more affordable, all essential components are placed on only one side. If you need to further cut costs, just don't populate the bottom side with the connectors.
+* Costs only about 5-10€ incl. VAT and shipping built in a batch of 50 boards, depending on fab.
 
 <img width="400" height="400" alt="meisterboard-zero" src="https://github.com/user-attachments/assets/cfa381f9-2c85-41a4-aca5-a8509badc839" />
 <img width="400" height="400" alt="meisterboard-zero" src="https://github.com/user-attachments/assets/d4093e6c-8bef-4b90-bfe1-352fa782a909" />
