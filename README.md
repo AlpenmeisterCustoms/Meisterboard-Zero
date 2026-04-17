@@ -14,8 +14,7 @@ I was in need of a cost effective breakout board to use for rapid prototyping an
 ## Design considerations
 The Waveshare Zero is a popular RP2040 based board to use as the central piece of GP2040-CE firmware based controller builds. While it is great because of its extremely small size and universal utility, it does not expose all available GPIOs in an easily accessible way and is not tailored for controller building. I therefore used its size as a benchmark and reference to aim for and added features I considered essential or useful:
 * All configurable GPIOs exposed via holes for pin headers and castellated holes for easier soldering.
-* All essential components are only on the top side of the board; the whole ![Uploading IMG_2397.png…]()
-bottom side can be left unpopulated (only optional connectors present) to make production even more affordable
+* All essential components are only on the top side of the board; the whole bottom side can and in most cases should be left unpopulated (only optional connectors present) to make production even more affordable
 * Dedicated onboard bootsel, reset and webconfig button.
 * Comes with a USB-A host daughter board, to be detached with wire cutters. 
 * Modular design makes it possible to also detach the main USB-C port.
