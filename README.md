@@ -1,7 +1,7 @@
 # Meisterboard-Zero
 a gaming controller focussed RP2040 micro breakout board for the GP2040-CE firmware
 
-<img width="400" height="900" alt="meisterboard-zero front" src="https://github.com/user-attachments/assets/f311391f-1b10-4405-89c1-f342dad86785" />
+<img width="400" height="400" alt="meisterboard-zero front" src="https://github.com/user-attachments/assets/f311391f-1b10-4405-89c1-f342dad86785" />
 <img width="400" height="400" alt="meisterboard-zero back" src="https://github.com/user-attachments/assets/b6fa2b68-b9fb-467c-9643-78f695e89ae9" />
 
 
@@ -33,8 +33,8 @@ The Waveshare Zero is a popular RP2040 based board to use as the central piece o
 * To make production more affordable, all essential components are placed on only one side. If you need to further cut costs, just don't populate the bottom side with the connectors.
 * Costs only about 5-10€ incl. VAT and shipping built in a batch of 50 boards, depending on fab.
 
-<img width="400" height="900" alt="meisterboard-zero with USB host front" src="https://github.com/user-attachments/assets/927df3fa-3640-468d-b14f-dad79b8ebe6d" />
-<img width="400" height="900" alt="meisterboard-zero with USB host back" src="https://github.com/user-attachments/assets/d77f4d4c-0eac-4212-89e7-09342ec8c727" />
+<img width="400" height="400" alt="meisterboard-zero with USB host front" src="https://github.com/user-attachments/assets/927df3fa-3640-468d-b14f-dad79b8ebe6d" />
+<img width="400" height="400" alt="meisterboard-zero with USB host back" src="https://github.com/user-attachments/assets/d77f4d4c-0eac-4212-89e7-09342ec8c727" />
 
 
 ## License
