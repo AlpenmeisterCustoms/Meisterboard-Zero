@@ -1,9 +1,10 @@
 # Meisterboard-Zero
 a gaming controller focussed RP2040 micro breakout board for the GP2040-CE firmware
 
+<div>
 <img width="400" height="400" alt="meisterboard-zero front" src="https://github.com/user-attachments/assets/f311391f-1b10-4405-89c1-f342dad86785" />
 <img width="400" height="400" alt="meisterboard-zero back" src="https://github.com/user-attachments/assets/b6fa2b68-b9fb-467c-9643-78f695e89ae9" />
-
+</div>
 
 ## Introduction / goals
 I was in need of a cost effective breakout board to use for rapid prototyping and to make iterating controller builds faster and more flexible. The goal was to reduce PCB assembly service costs and time and have a somewhat easy to solder breakout board available with all the necessary features present. That way one could quickly build on basic (even locally produced) PCBs without the need to embed and assemble the whole RP2040 design.
